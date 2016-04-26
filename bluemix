@@ -1,0 +1,6 @@
+command for push to bluemix
+
+cd $dir
+bluemix api https://api.stage1.ng.bluemix.net
+bluemix login -u yuwenp@cn.ibm.com -o yuwenp@cn.ibm.com -s dev
+cf push "SPSS Scala API"
